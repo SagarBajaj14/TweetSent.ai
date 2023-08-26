@@ -1,1 +1,1 @@
-# Debate-gpt
+# Debate.ai
