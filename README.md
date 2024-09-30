@@ -1,1 +1,3 @@
-# Debate.ai
+# **TweetSent.ai: Twitter Sentiment Analysis Using ML, DL, & Transformer Models**
+
+TweetSent.ai is a comprehensive project focused on Twitter sentiment analysis using a wide array of machine learning and deep learning techniques. This project explores sentiment analysis through traditional models like Bernoulli Naive Bayes, SVM, Logistic Regression, and Random Forest using TF-IDF feature vectors. Additionally, deep learning models (CNN, RNN) with Word-Index, GloVe, GloVe Twitter, and FastText embeddings are explored, alongside fine-tuning Transformer models such as BERT, DistilBERT, BERTweet, and RoBERTa for the task of sentiment analysis. The Sentiment140 Dataset with 1.6 million tweets is used for the task of twitter sentiment analysis. 
