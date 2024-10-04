@@ -12,6 +12,7 @@ https://www.kaggle.com/datasets/kazanova/sentiment140
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Models Used](#models-used)
+- [Usage](#usage)
 - [Results](#results)
 
 
@@ -93,6 +94,24 @@ TweetSent AI/
 - **DistilBERT**: Lightweight version of BERT, faster with minimal loss in accuracy.
 - **BERTweet**: Transformer pre-trained on Twitter data.
 - **RoBERTa**: A robust version of BERT optimized for better performance.
+
+## Usage
+
+### Clone the Repo
+```bash
+git clone https://github.com/yourusername/TweetSentAI.git
+cd TweetSentAI
+```
+### Run the streamlit app
+```bash
+streamlit run streamlit_dashboard.py
+```
+### Reproducing results
+```bash
+1.Navigate to the code folder
+2.Change the path of the data(including downloaded embeddings) in each ipynb file to the processed csv given in the data folder(already done for the transformer models)
+3.Run the individual ipynb files with GPU support to reproduce results
+```
 
 ## Results
 Key findings include:
