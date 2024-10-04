@@ -11,10 +11,10 @@ import streamlit as st
 nltk.download('wordnet')
 
 def load_models():
-    with open('TFIDF/vectoriser-ngram-(1,2).pickle', 'rb') as file:
+    with open('model/vectoriser-ngram-(1,2).pickle', 'rb') as file:
         vectoriser = pickle.load(file)
 
-    with open('TFIDF/Sentiment-LR.pickle', 'rb') as file:
+    with open('model/Sentiment-LR.pickle', 'rb') as file:
         LRmodel = pickle.load(file)
     
 
