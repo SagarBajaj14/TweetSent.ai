@@ -33,6 +33,7 @@ TweetSent AI/
 ├── Detailed review doc/   # Final doc summarizing the project
 ├── README.md           # Project readme file
 └── streamlit-dash/     # Streamlit app for real-time sentiment analysis
+```
 
 ## Features
 
