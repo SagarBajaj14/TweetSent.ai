@@ -23,6 +23,7 @@ Social media platforms like Twitter are brimming with user-generated data. **Twe
 
 ## Project Structure
 
+```bash
 TweetSent AI/
 │
 ├── data/               # Dataset and preprocessing scripts
