@@ -1,6 +1,10 @@
 # **TweetSent.ai: Twitter Sentiment Analysis Using ML, DL, & Transformer Models**
 
-TweetSent.ai is a comprehensive project focused on Twitter sentiment analysis using a wide array of machine learning, deep learning, and transformer architectures. This project explores sentiment analysis through traditional machine learnign models such as Bernoulli Naive Bayes, SVM, Logistic Regression, and Random Forest using TF-IDF feature vectors. Additionally, deep learning models including CNN and RNN with Word-Index, GloVe, GloVe Twitter, and FastText embeddings are explored, alongside fine-tuning transformer models such as BERT, DistilBERT, BERTweet, and RoBERTa for the task of sentiment analysis. The Sentiment140 Dataset with 1.6 million tweets is used for the task of twitter sentiment analysis. 
+TweetSent.ai is a comprehensive project focused on Twitter sentiment analysis using a wide array of machine learning, deep learning, and transformer architectures. This project explores sentiment analysis through traditional machine learning models such as Bernoulli Naive Bayes, SVM, Logistic Regression, and Random Forest with TF-IDF feature vectors. Additionally, Deep learning models including CNN and RNN are implemented using Word-Index, GloVe, GloVe Twitter, and FastText embeddings. Finally, pretrained transformer models such as BERT, DistilBERT, BERTweet, and RoBERTa are fine-tuned for the task of sentiment analysis. The Sentiment140 Dataset with 1.6 million tweets is used for the task of twitter sentiment analysis. The link to the dataset is given below:
+
+```bash
+https://www.kaggle.com/datasets/kazanova/sentiment140
+```
 
 ## Table of Contents
 - [Overview](#overview)
@@ -12,7 +16,7 @@ TweetSent.ai is a comprehensive project focused on Twitter sentiment analysis us
 
 
 ## Overview
-Social media platforms like Twitter are brimming with user-generated data. **TweetSent AI** aims to classify the sentiment of tweets (positive or negative) using various machine learning and deep learning models. The project implements both classical models and state-of-the-art transformers to provide a robust analysis pipeline.
+Social media platforms like Twitter are brimming with user-generated data. The senitment analysis using tweets pose a special problem as they contain contain a lot of noise as well as information in terms of hashtags and emoticons. **TweetSent AI** aims to classify the sentiment of tweets (positive or negative) using various machine learning and deep learning models. The project implements both classical models and state-of-the-art transformers to provide a robust analysis pipeline.
 
 ### Key Objectives:
 - Preprocess Twitter data for sentiment analysis.
@@ -75,7 +79,7 @@ TweetSent AI/
 ## Models Used
 
 ### Machine Learning Models
-- **Bernoulli Naive Bayes**: Trained with TF-IDF vectors.
+- **Bernoulli Naive Bayes**: Probabilistic classifier working on Bayes' theorum.
 - **Support Vector Machine (SVM)**: Utilizes hyperplanes for classification.
 - **Logistic Regression**: Linear model for binary classification.
 - **Random Forest**: An ensemble of decision trees for robust classification.
