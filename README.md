@@ -17,7 +17,7 @@ https://www.kaggle.com/datasets/kazanova/sentiment140
 
 
 ## Overview
-Social media platforms like Twitter are brimming with user-generated data. The senitment analysis using tweets pose a special problem as they contain contain a lot of noise as well as information in terms of hashtags and emoticons. **TweetSent.ai** aims to classify the sentiment of tweets (positive or negative) using various machine learning and deep learning models. The project implements both classical models and state-of-the-art transformers to provide a robust analysis pipeline.
+Social media platforms like Twitter are brimming with user-generated data. The sentiment analysis using tweets pose a special problem as they contain contain a lot of noise as well as information in terms of hashtags and emoticons. **TweetSent.ai** aims to classify the sentiment of tweets (positive or negative) using various machine learning and deep learning models. The project implements both classical models and state-of-the-art transformers to provide a robust analysis pipeline.
 
 ### Key Objectives:
 - Preprocess Twitter data for sentiment analysis.
